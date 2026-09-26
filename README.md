@@ -44,8 +44,8 @@
 
 ```bash
 # 1. 获取代码
-git clone https://github.com/<你的用户名>/<仓库名>.git
-cd <仓库名>
+git clone https://gitee.com/noME-LJZ-back/desktop-pet.git
+cd desktop-pet
 
 # 2. 安装依赖
 pip install -r requirements.txt
@@ -53,6 +53,8 @@ pip install -r requirements.txt
 # 3. 运行
 python main.py
 ```
+
+想直接下压缩包也可以：[Gitee 下载](https://gitee.com/noME-LJZ-back/desktop-pet/repository/archive/main.zip)
 
 想要不弹出黑色控制台窗口，用 `pythonw main.py` 启动。
 
