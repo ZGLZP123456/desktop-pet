@@ -1,0 +1,9 @@
+# 统一换行符为 LF，避免跨平台协作时整个文件被标记为已修改
+* text=auto eol=lf
+
+# 二进制文件不做换行转换
+*.ico binary
+*.png binary
+
+# Inno Setup 语言包保持原样，避免换行与编码被改动
+*.isl -text

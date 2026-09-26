@@ -1,0 +1,25 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ---------- 运行时产生的个人数据（不要提交） ----------
+pet_config.json
+pet_state.json
+pet.lock
+assets/
+
+# ---------- 打包产物 ----------
+build/
+dist/
+installer/
+
+# ---------- 日志与编辑器 ----------
+*.log
+debug.log
+.idea/
+.vscode/
+*.tmp
